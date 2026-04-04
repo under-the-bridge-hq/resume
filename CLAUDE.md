@@ -54,7 +54,7 @@ task build
 
 ## 筆者の傾向・思考スタイル
 
-ref: [book_reading/CLAUDE.md](https://github.com/kaz-under-the-bridge/book_reading/blob/main/CLAUDE.md)
+ref: [book_reading/CLAUDE.md](https://github.com/under-the-bridge-hq/book_reading/blob/main/CLAUDE.md)
 
 ### 立場・経験
 

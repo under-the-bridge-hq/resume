@@ -13,11 +13,11 @@ AI Coding Agent（Claude Code、Cursor等）を前提とした開発スタイル
 
 現在は株式会社タイミーでPFEグループマネージャーを務めつつ、副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) で複数社を支援中です。
 
-[GitHub](https://github.com/kaz-under-the-bridge) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
+[GitHub](https://github.com/under-the-bridge-hq) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/under-the-bridge-hq/)
 
 ## 🚀 直近1年の主な活動
 
-詳細は [ページ下部](https://kaz-under-the-bridge.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
+詳細は [ページ下部](https://under-the-bridge-hq.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
 
 - LayerX・タイミー合同イベント登壇（開発プロセスと組織のAIネイティブ化）
 - @IT Operator Live 2026 冬登壇（探偵のように調査するAI〜可観測性×AIの実践と展望〜）

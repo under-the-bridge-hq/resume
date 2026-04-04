@@ -1,14 +1,14 @@
 # 職務経歴書
 
-[![markdown lint](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/lint.yaml)
-[![PDF](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/release.yaml)
-[![pages-build-deploymen](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/kaz-under-the-bridge/resume/actions/workflows/pages/pages-build-deployment)
+[![markdown lint](https://github.com/under-the-bridge-hq/resume/actions/workflows/lint.yaml/badge.svg)](https://github.com/under-the-bridge-hq/resume/actions/workflows/lint.yaml)
+[![PDF](https://github.com/under-the-bridge-hq/resume/actions/workflows/release.yaml/badge.svg)](https://github.com/under-the-bridge-hq/resume/actions/workflows/release.yaml)
+[![pages-build-deploymen](https://github.com/under-the-bridge-hq/resume/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/under-the-bridge-hq/resume/actions/workflows/pages/pages-build-deployment)
 
 ## ファイル
 
-- [経歴書 Markdown](https://github.com/kaz-under-the-bridge/resume/blob/main/docs/README.md)
-- [GitHub Pages](https://github.com/kaz-under-the-bridge/resume#:~:text=kaz%2Dunder%2Dthe%2Dbridge.github.io/resume/)
-- [PDF](https://github.com/kaz-under-the-bridge/resume/releases)
+- [経歴書 Markdown](https://github.com/under-the-bridge-hq/resume/blob/main/docs/README.md)
+- [GitHub Pages](https://github.com/under-the-bridge-hq/resume#:~:text=kaz%2Dunder%2Dthe%2Dbridge.github.io/resume/)
+- [PDF](https://github.com/under-the-bridge-hq/resume/releases)
 
 ## セットアップ
 
