@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - docs/README.md
-      - README.md
 
 jobs:
   markdown_lint:
