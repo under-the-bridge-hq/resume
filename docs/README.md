@@ -19,7 +19,7 @@ AI Coding Agent（Claude Code、Cursor等）を前提とした開発スタイル
 
 現在は株式会社タイミーでPFEグループマネージャーを務めつつ、副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) で複数社を支援中です。
 
-[GitHub](https://github.com/under-the-bridge-hq) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/under-the-bridge-hq/)
+[GitHub](https://github.com/under-the-bridge-hq) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
 
 ## 🚀 直近1年の主な活動
 
