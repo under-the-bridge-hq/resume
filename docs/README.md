@@ -2,10 +2,8 @@
 layout: default
 title: 職務経歴書
 permalink: /index.html
+nav_exclude: true
 ---
-
-- toc
-{:toc}
 
 # 📝 職務経歴書 要約
 
