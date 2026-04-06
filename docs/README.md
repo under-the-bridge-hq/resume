@@ -5,11 +5,17 @@ permalink: /index.html
 nav_exclude: true
 ---
 
+<!-- markdownlint-disable MD022 -->
+<!-- textlint-disable -->
+
 ## 目次
 {: .no_toc }
 
 - toc
 {:toc}
+
+<!-- textlint-enable -->
+<!-- markdownlint-enable MD022 -->
 
 ---
 
