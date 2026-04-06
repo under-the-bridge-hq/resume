@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npx puppeteer browsers install chrome",
     "lint": "textlint docs/README.md && markdownlint docs/README.md",
     "build:pdf": "node ./node_modules/.bin/md-to-pdf docs/README.md --config-file ./pdf/config.js"
   },
