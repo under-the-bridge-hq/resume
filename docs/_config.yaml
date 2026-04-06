@@ -1,6 +1,21 @@
-#remote_theme: pages-themes/cayman@v0.2.0
-#remote_theme: pages-themes/dinky@v0.2.0
-#plugins:
-#  - jekyll-remote-theme
-words_per_minute: 200
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+
+title: 職務経歴書
+description: Kazuhiro Hashimoto - 職務経歴書
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
 markdown: kramdown
+words_per_minute: 200
+
+color_scheme: light
+
+search_enabled: false
+
+aux_links:
+  GitHub:
+    - "https://github.com/under-the-bridge-hq"
+  LinkedIn:
+    - "https://www.linkedin.com/in/under-the-bridge-hq/"
