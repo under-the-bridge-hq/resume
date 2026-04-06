@@ -15,16 +15,26 @@ tasks:
       - npm run build:pdf # pdf生成
 
   serve:
-    desc: "start jekyll server for local preview"
+    desc: "start jekyll server for local preview (Docker)"
+    cmds:
+      - docker run --rm -v {{.ROOT_DIR}}/docs:/srv/jekyll -p 4000:4000 jekyll/jekyll:4 sh -c "bundle install && jekyll serve --livereload --host 0.0.0.0 --baseurl /resume"
+
+  serve:local:
+    desc: "start jekyll server for local preview (native Ruby)"
     dir: docs
     cmds:
-      - bundle exec jekyll serve --livereload --host 0.0.0.0
+      - bundle exec jekyll serve --livereload --host 0.0.0.0 --baseurl /resume
 
   build:
     desc: "build jekyll site"
     dir: docs
     cmds:
-      - bundle exec jekyll build
+      - bundle exec jekyll build --baseurl /resume
+
+  build:docker:
+    desc: "build jekyll site (Docker)"
+    cmds:
+      - docker run --rm -v {{.ROOT_DIR}}/docs:/srv/jekyll jekyll/jekyll:4 sh -c "bundle install && jekyll build --baseurl /resume"
 
   default:
     desc: "update version"

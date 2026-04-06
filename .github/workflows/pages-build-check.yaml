@@ -1,0 +1,22 @@
+name: Jekyll Build Check
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - docs/**
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+          working-directory: docs
+      - name: Build with Jekyll
+        run: bundle exec jekyll build --baseurl "/resume" --destination ../_site
+        working-directory: docs
