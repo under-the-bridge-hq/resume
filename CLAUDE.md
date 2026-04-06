@@ -48,8 +48,8 @@ task build
 
 ## CI/CD
 
-- PR時に `docs/README.md` 変更でLint実行
-- PR時にPDFをドラフトリリースとして生成（Ubuntu 22.04固定: puppeteerのapparmor制約）
+- PR時に `docs/README.md` 変更でLint実行、Jekyllビルドチェック
+- mainマージ時に `docs/README.md` 変更でタグ自動作成 → Jekyll HTML → Puppeteer PDF生成 → リリース公開
 - mainマージでGitHub Pagesに自動デプロイ
 
 ## 筆者の傾向・思考スタイル
