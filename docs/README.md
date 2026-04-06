@@ -3,7 +3,14 @@ layout: default
 title: 職務経歴書
 permalink: /index.html
 nav_exclude: true
-has_toc: true
+---
+
+## 目次
+{: .no_toc }
+
+- toc
+{:toc}
+
 ---
 
 # 📝 職務経歴書 要約
