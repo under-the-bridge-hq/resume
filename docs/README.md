@@ -57,14 +57,13 @@ nav_exclude: true
 
 ## 🎯 ご支援可能な領域
 
-### Agentic Coding導入・組織展開支援
+### AI Coding Agentの組織活用コンサルティング
 
-AI Coding Agentを「個人の道具」から「組織の開発力」に変える支援領域です。本業でのAgent Harness Group立ち上げ経験を直接活かしています。
+本業でのAI-DLCやCoding Agentの組織展開経験から、「組織にどんな要素があればAI活用が広がるか」を実例ベースでアドバイスできます。
 
-- AI Coding Agentの組織導入設計（ツール選定、ガイドライン策定、集中研修の企画・実施）
-- ハーネス整備（CLAUDE.md、Skills、テスト基盤連携、セキュリティガードレール）
-- Knowledge-as-Code: 組織の暗黙知をAIが活用可能な形式知に変換
-- AI生成コードのガバナンス体制構築（品質・セキュリティの計測と管理）
+- AI Coding Agent導入の壁打ち（ツール選定、導入ステップ、組織への浸透戦略）
+- ハーネス整備の知見共有（CLAUDE.md、Skills、テスト連携、セキュリティガードレール）
+- 組織ナレッジのコード化（Knowledge-as-Code）に向けた設計相談
 
 ### AI駆動での爆速アウトプット支援
 
