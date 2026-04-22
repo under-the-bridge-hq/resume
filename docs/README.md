@@ -32,7 +32,7 @@ nav_exclude: true
 詳細は [ページ下部](https://under-the-bridge-hq.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
 
 - [Agent Harness Group設立に関するブログ記事](https://productpr.timee.co.jp/n/n99011b2a6947) を公開（AI Coding Agent x 開発組織実装の加速）
-- [Unicorn Gym導入によるAI-DLC組織展開の成果記事](https://tech.timee.co.jp/entry/2026/03/06/141357) を公開（3日間の集中研修が1ヶ月で組織を変えた実践レポート）
+- [Unicorn Gymを起点としたAI-DLC組織展開の成果記事](https://tech.timee.co.jp/entry/2026/03/06/141357) を公開（3日間の集中研修が1ヶ月で組織を変えた実践レポート）
 - LayerX・タイミー合同イベント登壇（開発プロセスと組織のAIネイティブ化）
 - @IT Operator Live 2026 冬登壇（探偵のように調査するAI〜可観測性×AIの実践と展望〜）
 - findy tools アーキテクチャカンファレンス 2025 登壇（AI x Platform Engineeringでスケーラブルな組織を作るには）
