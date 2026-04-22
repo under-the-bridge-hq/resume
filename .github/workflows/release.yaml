@@ -23,7 +23,7 @@ jobs:
         run: |
           LATEST_TAG=$(git tag --sort=-v:refname | head -1)
           NEXT_PATCH=$(echo "$LATEST_TAG" | awk -F. '{print $1"."$2"."$3+1}')
-          DATE=$(date '+%Y%m%d')
+          DATE=$(TZ=Asia/Tokyo date '+%Y%m%d')
           echo "tag=${NEXT_PATCH}" >> "$GITHUB_OUTPUT"
           echo "name=${NEXT_PATCH}_${DATE}" >> "$GITHUB_OUTPUT"
           git tag "$NEXT_PATCH"
