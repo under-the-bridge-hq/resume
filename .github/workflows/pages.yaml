@@ -28,7 +28,7 @@ jobs:
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "/resume" --destination ../_site
         working-directory: docs
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
 
   deploy:
     environment:
