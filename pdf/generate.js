@@ -6,6 +6,8 @@ const path = require("path");
   const outputPath = path.resolve(__dirname, "../docs/README.pdf");
 
   const browser = await puppeteer.launch({
+    // PUPPETEER_EXECUTABLE_PATH があればそれを使う（CIではGitHub提供のChromeを指定）
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
   const page = await browser.newPage();

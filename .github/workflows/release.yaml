@@ -15,8 +15,6 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: write
-    env:
-      PUPPETEER_CACHE_DIR: ${{ github.workspace }}/.cache/puppeteer
     steps:
       - uses: actions/checkout@v6
         with:
@@ -46,18 +44,18 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - name: Install Chrome for Puppeteer
+      # puppeteer による Chrome の自前DLは CI 上で無言失敗するため、
+      # GitHub Actions 提供の Chrome をインストールして使う
+      - name: Setup Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v2
+      - name: Verify Chrome
         run: |
-          set -x
-          # npx ではなく node_modules のローカル puppeteer CLI を直接実行する
-          # （npx 経由だと CI 上で何も DL せず無言終了することがあるため）
-          node node_modules/puppeteer/lib/cjs/puppeteer/node/cli.js browsers install chrome
-          # Chrome が実際に配置されたか検証し、無ければ即 fail させる
-          # （install が無言で何もしなくても後続まで通過させない）
-          CHROME_BIN=$(find "$PUPPETEER_CACHE_DIR/chrome" -name chrome -type f | head -1)
-          echo "Resolved Chrome: ${CHROME_BIN:-<none>}"
-          test -n "$CHROME_BIN" && test -f "$CHROME_BIN"
+          echo "Chrome path: ${{ steps.setup-chrome.outputs.chrome-path }}"
+          test -x "${{ steps.setup-chrome.outputs.chrome-path }}"
       - name: Generate PDF from Jekyll HTML
+        env:
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
         run: npm run build:pdf
       - name: Rename PDF
         run: mv docs/README.pdf "docs/resume_${{ steps.version.outputs.name }}.pdf"
