@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - docs/README.md
+  workflow_dispatch:
 
 jobs:
   release:
@@ -14,6 +15,8 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: write
+    env:
+      PUPPETEER_CACHE_DIR: ${{ github.workspace }}/.cache/puppeteer
     steps:
       - uses: actions/checkout@v6
         with:
@@ -43,7 +46,17 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run setup
+      - name: Install Chrome for Puppeteer
+        run: |
+          set -x
+          # npx ではなく node_modules のローカル puppeteer CLI を直接実行する
+          # （npx 経由だと CI 上で何も DL せず無言終了することがあるため）
+          node node_modules/puppeteer/lib/cjs/puppeteer/node/cli.js browsers install chrome
+          # Chrome が実際に配置されたか検証し、無ければ即 fail させる
+          # （install が無言で何もしなくても後続まで通過させない）
+          CHROME_BIN=$(find "$PUPPETEER_CACHE_DIR/chrome" -name chrome -type f | head -1)
+          echo "Resolved Chrome: ${CHROME_BIN:-<none>}"
+          test -n "$CHROME_BIN" && test -f "$CHROME_BIN"
       - name: Generate PDF from Jekyll HTML
         run: npm run build:pdf
       - name: Rename PDF
