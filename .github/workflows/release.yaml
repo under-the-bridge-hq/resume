@@ -39,7 +39,7 @@ jobs:
         working-directory: docs
       - name: Copy _site to docs/_site
         run: cp -r _site docs/_site
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
