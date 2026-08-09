@@ -32,6 +32,7 @@ nav_exclude: true
 詳細は [ページ下部](https://under-the-bridge-hq.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
 
 - Forkwell主催「トークンコストへの向き合い方」登壇（抑制ではなく配分へ - タイミーのトークンコストとの向き合い方）
+- Cloud Operator Days Tokyo 2026 オンデマンド登壇（SRE/PFEからAIハーネスへ。AI時代の運用とキャリアの進化）
 - タイミー主催「AI効果検証 meetup #1」登壇（[AI定額制モラトリアムの終わりと開発生産性可視化への道筋](https://speakerdeck.com/kazutb/aiding-e-zhi-moratoriamunozhong-waritokai-fa-sheng-chan-xing-ke-shi-hua-henodao-jin)）
 - [Agent Harness Group設立に関するブログ記事](https://productpr.timee.co.jp/n/n99011b2a6947) を公開（AI Coding Agent x 開発組織実装の加速）
 - [Unicorn Gymを起点としたAI-DLC組織展開の成果記事](https://tech.timee.co.jp/entry/2026/03/06/141357) を公開（3日間の集中研修が1ヶ月で組織を変えた実践レポート）
@@ -442,6 +443,13 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 - コーディングエージェントが従量制となった環境でのトークンコストとの向き合い方を実践から共有（2026/07/28開催）
 - 「予算枠内に収める」抑制ではなく「成果への配分」へのメンタルモデル転換と、検証にかかる見えないコストを含む実効コストの考え方を紹介
+
+## Cloud Operator Days Tokyo 2026 オンデマンドセッション
+
+- [SRE/PFEからAIハーネスへ。タイミー新組織の挑戦から探る、AI時代の運用とキャリアの進化](https://speakerdeck.com/kazutb/sre-pfe-kara-ai-hanesuhe-taimixin-zu-zhi-notiao-zhan-karatan-ru-ai-shi-dai-noyun-yong-tokiyarianojin-hua)
+- [イベントサイト](https://cloudopsdays.com/on-demand-sessions-2026/)
+
+- SREやPlatform Engineeringを経てきたエンジニアの次の主戦場としての「ハーネスエンジニアリング」と、Agent Harness Group設立の経緯を通じて、AI時代の運用とキャリアの進化を考察（2026年7月中旬よりオンデマンド公開）
 
 ## タイミー主催「AI効果検証 meetup #1」
 
