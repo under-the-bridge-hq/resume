@@ -21,9 +21,9 @@ nav_exclude: true
 
 # 📝 職務経歴書 要約
 
-20年以上のクラウド・セキュリティ・開発基盤の経験を土台に、AI Coding Agentで組織と個の開発力を最大化するエンジニアです。
+20年以上のクラウド・セキュリティ・開発基盤の経験を土台に、AI Coding Agentで組織と個の開発力を最大化するエンジニアです。開発組織へのAI活用推進と、利用方針・法令対応・品質計測・コスト統制といったAIガバナンスを両輪で設計・実装できることが特徴です。
 
-本業では株式会社タイミーでAgent Harness Groupのグループマネージャーとして、Agentic Codingの組織導入における生産性と安全性の共進化を推進しています。副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) では、自らもAIを最大限に活用する一エンジニアとして、クライアントのGTMに直接寄与しています。
+本業では株式会社タイミーでAgent Harness Groupのグループマネージャーとして、250名規模のプロダクト開発組織におけるAI駆動開発推進とAIガバナンス整備を推進しています。副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) では、自らもbuilderとしてAIを最大限に活用する一エンジニアとして、クライアントのGTMに直接寄与しています。
 
 [GitHub](https://github.com/under-the-bridge-hq) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
 
@@ -43,11 +43,10 @@ nav_exclude: true
 
 ## 💪 強み
 
-- **Agentic Coding x 組織**: AI Coding Agentの組織導入設計から、ガバナンス・文化醸成まで一気通貫で推進
-- **AI x 個のGTM貢献**: 自らClaude Code等を駆使し、短期間で数人分のアウトプットを実現。支援先のGTMに直接寄与
+- **AI活用推進とガバナンスの両輪**: 開発組織へのAI導入・浸透と、利用方針・法令対応・品質計測・トークンコスト統制までを一気通貫で設計・実装
+- **AI x 個のGTM貢献**: 自らbuilderとしてClaude Code等を駆使し、インフラ/SRE専門ながらアプリ開発・BizDevまで対応。短期間で数人分のアウトプットを実現し、支援先のGTMに直接寄与
 - **土台としてのPlatform Engineering**: クラウド・セキュリティ・CI/CD・IaCの深い実務経験が、AI活用の質と安全性を支える
-- **AI-Assistedによる多能工化**: インフラ/SRE専門だがAI活用でアプリ開発・BizDevまで対応可能
-- **多様なレイヤー・フェーズでの経験**: 創業まもないスタートアップから、数十〜千数百人規模のベンチャー〜メガベンチャー、数万人規模の大企業まで、幅広いフェーズ・組織規模での就業・支援経験
+- **多様なレイヤー・フェーズでの経験**: 創業まもないスタートアップから数万人規模の大企業まで、幅広いフェーズ・組織規模での就業・支援経験
 - エンジニアリング・マネジメント / チームビルド・組織ブランディング
 
 ---
@@ -58,12 +57,14 @@ nav_exclude: true
 
 ## 🎯 ご支援可能な領域
 
-### AI Coding Agentの組織活用コンサルティング
+### 開発組織のAI活用推進とガバナンス構築
 
-本業でのAI-DLCやCoding Agentの組織展開経験から、「組織にどんな要素があればAI活用が広がるか」を実例ベースでアドバイスできます。
+本業でのAI-DLC・Coding Agentの組織展開とAIガバナンス整備の経験から、AI活用を「広げる」と「統制する」の両輪で支援できます。
 
 - AI Coding Agent導入の壁打ち（ツール選定、導入ステップ、組織への浸透戦略）
 - ハーネス整備の知見共有（CLAUDE.md、Skills、テスト連携、セキュリティガードレール）
+- AI利用ガイドライン策定・法令対応（APPI等）・情報資産管理などのガバナンス整備
+- AIトークンコストマネジメント（可視化・配分・効率化）の仕組み化
 - 組織ナレッジのコード化（Knowledge-as-Code）に向けた設計相談
 
 ### AI駆動での爆速アウトプット支援
@@ -117,58 +118,21 @@ nav_exclude: true
 
 **E社 (Seedスタートアップ HRTech / 社員数2名 / 2026年3月〜5月に集中支援、以降スポット支援)**
 
-- **課題:**
-  - 創業者のPoCアプリはあるが、仕様が暗黙知のまま整理されていない
-  - 1〜2ヶ月でのアプリローンチを目指すが、開発リソース・組織体制が未整備
-  - Pマーク取得やプライバシー・セキュリティ設計を創業初期から組み込む必要がある
-- **支援:**
-  - Claude Codeを活用したPoCアプリの仕様整理・モック化・要件定義
-  - PM業務・コード開発・インフラ構築・セキュリティ強化をマルチロールで担当
-  - ローンチ判定・セキュリティreadinessチェックリストに基づく強化（入力バリデーション、監査ログ、CVEスキャン等）
-  - 追加開発者の採用戦略と組織ロードマップの提案
-  - Pマーク取得を見据えたPrivacy/Security by Default設計
-  - AI駆動開発を前提とした会社組織骨子の構築
-- **成果（支援開始2ヶ月）:**
-  - PoCアプリを初期ローンチ状態まで到達（PM・開発・インフラ・セキュリティのマルチロール支援による）
+- **課題:** 創業者のPoCアプリの仕様が暗黙知のままで、開発体制・プライバシー設計も未整備の中、1〜2ヶ月でのローンチを目指す状態
+- **支援:** Claude Codeを活用した仕様整理・要件定義から、PM・開発・インフラ・セキュリティのマルチロール支援、Pマーク取得を見据えたPrivacy/Security by Default設計、組織ロードマップ提案まで一気通貫で担当
+- **成果:** 支援開始2ヶ月でPoCアプリを初期ローンチ状態まで到達。セキュリティreadinessチェックリストに基づく強化（入力バリデーション、監査ログ、CVEスキャン等）も実施
 
 **D社 (SaaS企業 / 社員数約100人 / 2025年12月〜2026年2月)**
 
-- **課題:**
-  - ドキュメント不在による属人化、オフショア開発の成果・コスト効率が不透明
-  - PdM不在で要件定義と受入検査の責任分界点が曖昧
-  - 上記を前提に、何をすればよいのか優先度付け・ROI策定が困難な状態
-  - テスト基盤の欠如によりレビュー負荷がボトルネック化
-- **支援:**
-  - Claude Codeを活用したAI駆動でのシステム・ビジネス把握（50以上のドキュメント生成）
-  - GCPインフラ構成の可視化、セキュリティ監査
-  - ユーザージャーニー・CUJ（Critical User Journeys）の定義と優先度付け
-  - オフショア開発のGitコミット分析による稼働実態の可視化
-  - DevContainer環境構築、Docker開発環境整備
-  - テスト基盤修復（長期間メンテされていなかった問題を解決）
-  - AI駆動開発向け規約整備（CLAUDE.md等）
-- **成果（参画後1ヶ月）:**
-  - 年間1,000万円以上のコスト削減ポテンシャルを特定
-  - 開発・ビジネス両面での意思決定基盤を構築
-  - 属人的な知識をStock型ドキュメントとして資産化
-  - テスト自動化によるレビュー負荷軽減の基盤を構築
+- **課題:** ドキュメント不在の属人化とテスト基盤の欠如により、優先度付け・ROI策定が困難な状態
+- **支援:** Claude Codeを活用したAI駆動でのシステム・ビジネス把握（50以上のドキュメント生成）、GCPインフラ可視化・セキュリティ監査、テスト基盤修復、AI駆動開発向け規約整備（CLAUDE.md等）
+- **成果:** 参画後1ヶ月で年間1,000万円以上のコスト削減ポテンシャルを特定し、意思決定基盤とテスト自動化基盤を構築
 
 **C社 (スタートアップ SaaS企業 / 社員数十数人 / 2024年11月〜2025年11月)**
 
-- **課題:**
-  - エンジニアリング体制の手薄さ
-  - 顧客のエンタープライズグレード移行に伴う要件増加
-  - プロダクト・セキュリティと個人情報の保護法遵守への即応が必要
-- **支援:**
-  - IaC前提の変更管理とレビュー駆動運用へ移行
-  - 体制のペルソナ策定と初期プロセス整備
-  - Security by Design(SbD)/Privacy by Design(PbD)の方針策定
-  - PMS・ISMSと開発運用フローの整合性確認と弱点補強
-- **成果:**
-  - PMS・ISMSと運用フローの整合性を明確化
-  - 監査対応の見通しを確保
-  - プロダクト・セキュリティおよびSbD/PbD方針を策定
-  - セキュリティ整備不全によるチャーンリスクを解消
-  - 安定した契約獲得と契約上のリスク排除を実現
+- **課題:** 顧客のエンタープライズグレード移行に伴い、手薄なエンジニアリング体制でプロダクト・セキュリティと個人情報の保護法遵守への即応が必要
+- **支援:** IaC前提の変更管理への移行、体制のペルソナ策定、SbD/PbD方針策定、PMS・ISMSと開発運用フローの整合性確認と弱点補強
+- **成果:** 監査対応の見通しを確保し、セキュリティ整備不全によるチャーンリスクを解消。安定した契約獲得と契約上のリスク排除を実現
 
 **A社 (大手製造業 / 社員数数万人 / 2024年9月〜)**
 
@@ -238,25 +202,13 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 ## エンジニアリングスキル
 
-- クラウド/インフラエンジニアリング
-  - GCP（GCE, GKE, Cloud Run, Cloud Functions, IAP）
-  - AWS（EC2, ECS, Lambda, VPC, Security Groups）
-  - Terraform, Ansible, Packer, Kubernetes
-  - クラウドネイティブアーキテクチャ設計
-- セキュリティ
-  - DevSecOpsプラクティスの実装
-  - コンテナセキュリティ（脆弱性管理、イメージスキャン）
-  - クラウドセキュリティフレームワークの導入
-  - SCoE(Security Center of Excellence)の構築
-- プログラミング
-  - Golang（インフラツール、APIサービス開発）
-  - ShellScript（自動化スクリプト、運用効率化）
-  - Python（データ処理、自動化）
-  - 運用効率化ツール開発に特化（1万行程度まで）
-- ネットワークインフラ
-  - クラウドネットワーク設計（VPC, Subnetデザイン）
-  - ルーティング、L2/L3スイッチング
-  - パケット解析・トラブルシューティング
+- クラウド/インフラ: AWS（EC2・ECS・Lambda・Aurora等）/ GCP（GKE・Cloud Run・GCE等）、クラウドネイティブアーキテクチャ設計
+- IaC・CI/CD: Terraform・Ansible・Packer・Helm、GitHub Actions（self-hosted runner）・ArgoCD・GitOps実践、GitHub Enterprise管理
+- セキュリティ: DevSecOps、コンテナセキュリティ（Sysdig/Falco、脆弱性管理）、CSPM/CNAPP、SCoE(Security Center of Excellence)構築
+- 監視・オブザーバビリティ: Datadog・New Relic・Prometheus/Grafana・PagerDuty・Elasticsearch/Kibana/BigQuery
+- プログラミング: Go・Python・ShellScript（インフラツール・運用効率化ツールの開発に特化、1万行程度まで）
+- ネットワーク: クラウドネットワーク設計（VPC, Subnetデザイン）、L2/L3スイッチング、パケット解析（Wireshark/tcpdump）
+- ミドルウェア・その他: MySQL・Redis・Kafka・Nginx・fluentd/fluent-bit・Kubernetes、Google Workspace管理
 
 ## GTMエンジニアリング・マネジメント
 
@@ -270,42 +222,6 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
   - エンパワーメント型マネジメント（自律を促し、放置しない）
   - 採用戦略の策定からJD設計、面接プロセス構築まで
   - 組織ブランディングと技術発信の設計
-
-## 技術スタック
-
-- コード管理・CI/CD
-  - GitHub Enterprise(管理者)
-  - GitHub Actions(self-hosted runner)
-  - ArgoCD
-  - GitOps実践
-- サーバ・ミドルウェア
-  - Ubuntu / Debian
-  - GKE / GCE / Cloud Run, etc
-  - AWS / EC2 / ECS / Lambda, etc
-  - MySQL
-  - Kafka
-  - Redis / Memcached
-  - Nginx / Apache / Ruby On Rails / Flask
-  - fluentd / fluent-bit
-  - Elasticsearch, Kibana, BigQuery
-- IaC
-  - Terraform
-  - Ansible
-  - Packer
-  - Helm
-- コミュニケーション
-  - Slack / Zoom
-  - Notion
-  - Atlassian Confluence / Jira
-  - Google Workspace(管理者)
-- 監視・モニタリング
-  - Sysdig / Falco
-  - Wireshark / tcpdump
-  - Prometheus / Grafana
-  - PagerDuty
-  - New Relic
-- その他
-  - Vyos
 
 ---
 
@@ -380,58 +296,26 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 ### 株式会社スクウェア・エニックス
 
-- グローバルエンジニアリングを志向した参画から、日本を中心とした技術基盤構築へ
-  - グローバル展開経験を活かした堅牢なインフラ設計手法の確立
-  - 高負荷・高可用性を要求されるゲームサービス向けのアーキテクチャ設計
-- 主な業務と成果
-  - クラウドマイグレーションとコンテナ化
-    - IaaSからKubernetesへの段階的な移行戦略の策定と実装
-    - 既存サービスの無停止移行の実現
-    - 移行後のパフォーマンス最適化（レイテンシ30%改善）
-  - クラウド/コンテナセキュリティの確立
-    - セキュリティガイドラインの整備と自動チェック体制の構築
-    - 脆弱性管理プロセスの確立と継続的改善
-    - CISベンチマークに基づく堅牢化の推進
-  - SREチームの構築と文化醸成
-    - 採用戦略の策定とチームビルド（0→5名へ拡大）
-    - SRE文化の普及と技術共有の促進
-    - カスタムSLI/SLOフレームワークの開発と導入
+- グローバル展開経験を活かし、高負荷・高可用性が要求されるゲームサービスの技術基盤を構築
+- クラウドマイグレーションとコンテナ化: IaaSからKubernetesへの段階的移行を無停止で実現し、移行後にレイテンシ30%改善
+- クラウド/コンテナセキュリティの確立: ガイドライン整備と自動チェック体制の構築、CISベンチマークに基づく堅牢化
+- SREチームの構築: 採用戦略の策定とチームビルド（0→5名）、カスタムSLI/SLOフレームワークの開発・導入
 
 ### 株式会社コロプラ
 
-- ネットワークエンジニアからのキャリア転換を目指して転職
-  - SIer的な仕事からスタートアップの"グルーブ"を理解するのに当初は苦戦
-- とても大変だったが非常に様々な経験が出来た現場
-  - 大変が故にインフラエンジニアの大変さを如何に軽減すべきかを深く考えることのきっかけに
-  - Site Reliability Enginneringを志向するように
-- チームマネジメントは成功しているようで失敗している
-  - [Wevox](https://get.wevox.io/) という社内サーベイでチームが社内でも1位,2位の高い点数を得た
-  - しかしながら、マイクロマネジメントであることが課題に気づく
-  - このときのバッドパターン克服が今のマネジメントスタイルの契機に
-- 主な業務
-  - AWSでのゲームサーバインフラ構築・運用
-  - AWS > GCPへのクラウドマイグレーション
-  - GKE/Spannerを用いたゲーム開発基盤の整備
-  - SREチームとSLI/SLO実装
+- ネットワークエンジニアからクラウドインフラへキャリア転換。AWSでのゲームサーバ構築・運用、AWS→GCPマイグレーション、GKE/Spannerを用いた開発基盤整備、SLI/SLO実装を担当
+- インフラ運用の負荷軽減を突き詰めた経験から、Site Reliability Engineeringを志向するように
+- マネジメントでは社内サーベイ上位の評価を得た一方、マイクロマネジメントの課題に気づき、現在のエンパワーメント型スタイルの契機に
 
 ### 株式会社アーク・システム
 
-- "モノを売るのが中心のIT"の先行きが不透明であったのでソリューション提供(モノ売り+運用構築の後者)へ転換
-- モノをベンダー選定をして調達、構築・導入・運用というサイクルを主として客先常駐スタイルでの業務
-- 常駐先企業への提案・予算獲得・アサイン・プロジェクトマネジメント・実装までを一気通貫で
-  - ヒト・モノ・カネについてバランス良く学んだとても良い経験に
-  - PM、エンジニア、営業と複数人で業務分担して行うことを一人でこなす
-  - "脂がのっていた"もののリーダーシップは最悪。戒めるべき過去
-  - 人を見て仕事をしてしまうようになったことがしばらくの間は"呪い"に
+- 客先常駐スタイルを主として、提案・予算獲得・プロジェクトマネジメント・実装までを一人で一気通貫に担当し、ヒト・モノ・カネをバランス良く学ぶ
+- エンタープライズネットワーク構築、セキュリティインフラ導入、データセンター移転プロジェクトなどを推進
 
 ### エス・アンド・アイ株式会社
 
-- "小さな会社"の方が仕事の全体感を知ることができると学生思考で考えて大手を避けて入社
-- 当時はドットコムバブル。モノ(サーバやネットワーク機器)を売って構築エンジニアを付けるというシステム・インテグレーションが全盛期
-  - ネットワークを作って、サーバをラックマウントして構築するという物理構築の一通りを沢山行う
-  - 作ること以外を苦手とするエンジニアが多く、炎上案件に繋がることが多い
-  - 前後の工程を理解していないことや技術のみにしか興味がないと嵌りがち
-  - スケジュール、協同といった時間・空間的に多くを理解して仕事をすることが大事なことであることを知る(今でも大事)
+- システム・インテグレーション全盛期に、ネットワーク構築からサーバのラックマウントまで物理構築の一通りを経験
+- 前後の工程・スケジュール・協同への理解が仕事の質を左右することを学ぶ（今でも大事にしている原則）
 
 # 🌟 主な活動・実績
 
@@ -501,84 +385,21 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 [AI x PlatformEngineeringへの取り組み(立志編)](https://tech.timee.co.jp/entry/2025/06/19/175857)
 
-## インタビュー記事(自社オウンドメディア)
+## 過去の主な活動（2024年以前）
 
-[優秀なメンバーと共に成長するマネージャー像とは──タイミーGMが語る“支える”リーダーシップの実践](https://productpr.timee.co.jp/n/n3408bc520ca8)
-
-## イベント登壇: UV Study: Platform Engineeringの始め方
-
-- [この道四半世紀のインフラエンジニアが タイミーのPFEチームにJOINした体験談](https://speakerdeck.com/kazutb/konodao-si-ban-shi-ji-noinhuraenziniaga-taiminopfetimunijoinsitati-yan-tan)
-
-## findy toolsへの寄稿: アーキテクチャ大喜利
-
-- [アーキテクチャ大喜利 「もし、⚪︎⚪︎な仕様のサービスを立ち上げるなら、あなたはどんなアーキテクチャを組みますか？」著名企業のエンジニアに聞いた](https://findy-tools.io/articles/architecture-ogiri/33)
-
-## findy toolsのセキュリティイベント登壇
-
-- [実例から学ぶセキュリティ監視](https://findy-tools.io/events/dcffdf68ccb328b6717d)
-
-## ブログ記事: Aurora MySQLを安心してアップグレードするための手法検討
-
-- [Aurora MySQLのアップグレード後ロールバック方法を検討してみた](https://tech.timee.co.jp/entry/2024/09/17/100000)
-
-## ビルドアップしたSREチームのインタビュー記事(その2)
-
-- [現場社員が語る！全ての人が快適に利用できるシステム作りを目指すスクエニSREチームの今とこれから](https://www.jp.square-enix.com/recruit/career/work_life_story/2024/03/sre-1.html)
-- チームビルドの企画を立てて社内でのヘッドカウント確保（説得）から採用活動を経て4名のSREメンバーが揃いチームとして完成したことを期にチームメンバーへのインタビューメインの記事を作りました
-- [この記事](https://www.wantedly.com/companies/jp4/post_articles/440694) の後続にあたる
-
-## ブログ寄稿(Observability製品とSLI/SLOについて)
-
-- [しんどくないSLI/SLOプラクティスをNew Relicで？](https://blog.jp.square-enix.com/iteng-blog/posts/00069-effortless-sli-slo-with-newrelic/)
-- Observabilityは難しくいろんなプロダクトやソリューションがあるが何のために何をするのかが分からなくなりがち
-- 伝統的な監視やSLI/SLOの維持そのものが目的ではなくあくまで手段であるが、その手段が重すぎないか？
-- 今一度、何のためにするのか、何を得たいのかを整理した記事です
-
-## Platform Engineering採用
-
-- [募集要項](https://hrmos.co/pages/square-enix/jobs/820200001)
-- 時期によっては上記記事が公開されていない場合があります
-- 関連して [明日の開発カンファレンス 2023](https://fod.connpass.com/event/296513/) にて登壇
-
-## SRE Next登壇
-
-- Sysdig社スポンサードでコンテナセキュリティ・脆弱性対策の内容で登壇
-- [イベントサイト](https://sre-next.dev/2023/schedule/#sp004)
-
-## Cloud Operator Days Tokyo 2023登壇
-
-- [クラウドネイティブ活用でちょっと手にあまる規模のサーバを効率的に管理しよう](https://www.youtube.com/watch?v=suis_Jmm-8c&list=PLIWHlELO-vgyiQa3Tvy2l3eKzI5nTACHU&index=35)
-- [イベントサイト](https://cloudopsdays.com/ondemand/#%E9%81%8B%E7%94%A8%E8%87%AA%E5%8B%95%E5%8C%96)
-- [当イベントの選考で最優秀オペレーター賞を受賞](https://x.com/cloudopsdays/status/1702208223707845077?s=20)
-- @ITで記事 [「ダブルチェックを頑張る」でごまかさない、スクウェア・エニックスのサーバ設定漏れ防止策](https://atmarkit.itmedia.co.jp/ait/articles/2310/23/news011.html) にしていただきました
-
-## 上記登壇内容を扱った詳細ブログ記事
-
-- [\[概要編\] GCPでVMインスタンスを自動・自律的に構築する仕組み](https://blog.jp.square-enix.com/iteng-blog/posts/00053-overview-of-autonomous-instance-setup/)
-- [\[VM継続ビルド編\] GCPでVMインスタンスを自動・自律的に構築する仕組み](https://blog.jp.square-enix.com/iteng-blog/posts//00054-continuous-image-build/)
-- [\[サーバ構築編\] GCPでVMインスタンスを自律的に構築する仕組み](https://blog.jp.square-enix.com/iteng-blog/posts//00055-vm-instance-autonomous-setup/)
-- [\[テスト編\] GCPでVMインスタンスを自動・**自律的に構築する仕組み**](https://blog.jp.square-enix.com/iteng-blog/posts//00056-testing-after-setting-up/)
-
-## ビルドアップしたSREチームのインタビュー記事(その1)
-
-- [【スクレポ】現場社員が語る！少数精鋭で変化に対応し続けていくスクエニSREチームのミッションとは](https://www.wantedly.com/companies/jp4/post_articles/440694)
-- 採用時のチームの雰囲気やチームの方向性を既存メンバーや周囲に理解してもらうことを意図して所属企業のオウンドメディアにて公開
-- [この記事](https://www.jp.square-enix.com/recruit/career/work_life_story/2024/03/sre-1.html) の一つ前の記事にあたる
-
-## ブログ寄稿(SREチームについての考え方について)
-
-- [スクウェア・エニックスの"とあるシステム"のSite Reliability Engineering](https://blog.jp.square-enix.com/iteng-blog/posts/00030-sre-for-a-system-square-enix/)
-
-## Jaguerコミュニティでの分科会運営についてのパネルディスカッション
-
-- jaguer([Japan Google Cloud Usergroup for Enterprise](https://jaguer.jp/))
-- [キャリア ディベロップメントの手法としてのコミュニティ運営](https://www.youtube.com/watch?v=IF6YZ00dEuA)
-
-## Cloud Native Days Tokyo 2022
-
-- 実践！クラウドネイティブセキュリティ-スクウェア・エニックスが進めるコンテナ化への旅
-- 残念ながら非公開であるため資料・動画等はありません
-  - Sysdig社スポンサードで登壇
-  - IaaS/VMによるサーバ・ランタイム環境からKubernetes/コンテナ及びクラウド中心のランタイム環境になった際のセキュリティ対策をどう行うかをユーザ観点でお話しました
+- [優秀なメンバーと共に成長するマネージャー像とは──タイミーGMが語る“支える”リーダーシップの実践](https://productpr.timee.co.jp/n/n3408bc520ca8)（インタビュー）
+- [この道四半世紀のインフラエンジニアが タイミーのPFEチームにJOINした体験談](https://speakerdeck.com/kazutb/konodao-si-ban-shi-ji-noinhuraenziniaga-taiminopfetimunijoinsitati-yan-tan)（UV Study登壇）
+- [アーキテクチャ大喜利](https://findy-tools.io/articles/architecture-ogiri/33)（findy tools寄稿）
+- [実例から学ぶセキュリティ監視](https://findy-tools.io/events/dcffdf68ccb328b6717d)（findy toolsイベント登壇）
+- [Aurora MySQLのアップグレード後ロールバック方法を検討してみた](https://tech.timee.co.jp/entry/2024/09/17/100000)（ブログ記事）
+- スクエニSREチームのビルドアップを扱ったインタビュー記事（[その1](https://www.wantedly.com/companies/jp4/post_articles/440694) / [その2](https://www.jp.square-enix.com/recruit/career/work_life_story/2024/03/sre-1.html)）
+- [しんどくないSLI/SLOプラクティスをNew Relicで？](https://blog.jp.square-enix.com/iteng-blog/posts/00069-effortless-sli-slo-with-newrelic/)（ブログ寄稿）
+- [明日の開発カンファレンス 2023](https://fod.connpass.com/event/296513/) 登壇（Platform Engineering採用関連）
+- SRE Next 2023 登壇（Sysdig社スポンサードでコンテナセキュリティ・脆弱性対策 / [イベントサイト](https://sre-next.dev/2023/schedule/#sp004)）
+- Cloud Operator Days Tokyo 2023 登壇（[動画](https://www.youtube.com/watch?v=suis_Jmm-8c&list=PLIWHlELO-vgyiQa3Tvy2l3eKzI5nTACHU&index=35) / [最優秀オペレーター賞を受賞](https://x.com/cloudopsdays/status/1702208223707845077?s=20) / [@IT掲載記事](https://atmarkit.itmedia.co.jp/ait/articles/2310/23/news011.html)）
+- [GCPでVMインスタンスを自動・自律的に構築する仕組み（ブログ4部作）](https://blog.jp.square-enix.com/iteng-blog/posts/00053-overview-of-autonomous-instance-setup/)
+- [スクウェア・エニックスの"とあるシステム"のSite Reliability Engineering](https://blog.jp.square-enix.com/iteng-blog/posts/00030-sre-for-a-system-square-enix/)（ブログ寄稿）
+- [キャリア ディベロップメントの手法としてのコミュニティ運営](https://www.youtube.com/watch?v=IF6YZ00dEuA)（Jaguerパネルディスカッション）
+- Cloud Native Days Tokyo 2022 登壇（実践！クラウドネイティブセキュリティ / Sysdig社スポンサード・資料非公開）
 
 <!-- 2026-05-31: PDF生成(#108)修正後のRelease再生成トリガー用 -->
