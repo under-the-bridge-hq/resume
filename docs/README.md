@@ -31,9 +31,9 @@ nav_exclude: true
 
 詳細は [ページ下部](https://under-the-bridge-hq.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
 
-- Forkwell主催「トークンコストへの向き合い方」登壇（抑制ではなく配分へ - タイミーのトークンコストとの向き合い方）
-- Cloud Operator Days Tokyo 2026 オンデマンド登壇（SRE/PFEからAIハーネスへ。AI時代の運用とキャリアの進化）
-- タイミー主催「AI効果検証 meetup #1」登壇（[AI定額制モラトリアムの終わりと開発生産性可視化への道筋](https://speakerdeck.com/kazutb/aiding-e-zhi-moratoriamunozhong-waritokai-fa-sheng-chan-xing-ke-shi-hua-henodao-jin)）
+- Forkwell主催「トークンコストへの向き合い方」登壇（[抑制ではなく配分へ - タイミーのトークンコストとの向き合い方](https://speakerdeck.com/kazutb/yi-zhi-dehanakupei-fen-he-taiminotokunkosutotonoxiang-kihe-ifang)）
+- Cloud Operator Days Tokyo 2026 オンデマンド登壇（[SRE/PFEからAIハーネスへ。AI時代の運用とキャリアの進化](https://speakerdeck.com/kazutb/sre-pfe-kara-ai-hanesuhe-taimixin-zu-zhi-notiao-zhan-karatan-ru-ai-shi-dai-noyun-yong-tokiyarianojin-hua)）
+- findy主催「AI効果検証 meetup #1」登壇（[AI定額制モラトリアムの終わりと開発生産性可視化への道筋](https://speakerdeck.com/kazutb/aiding-e-zhi-moratoriamunozhong-waritokai-fa-sheng-chan-xing-ke-shi-hua-henodao-jin)）
 - [Agent Harness Group設立に関するブログ記事](https://productpr.timee.co.jp/n/n99011b2a6947) を公開（AI Coding Agent x 開発組織実装の加速）
 - [Unicorn Gymを起点としたAI-DLC組織展開の成果記事](https://tech.timee.co.jp/entry/2026/03/06/141357) を公開（3日間の集中研修が1ヶ月で組織を変えた実践レポート）
 - LayerX・タイミー合同イベント登壇（開発プロセスと組織のAIネイティブ化）
@@ -330,7 +330,7 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 ### 株式会社タイミー(現職/本業)
 
-- Agent Harness Groupのグループマネージャーとして以下を推進（2026/05〜）:
+- Agent Harness Groupのグループマネージャーとして、250名規模のプロダクト開発組織におけるAI駆動開発推進・AIガバナンス整備・AIトークンコストマネジメントの仕組み化を推進（2026/05〜）:
   - AI Coding Agentの組織導入における生産性と安全性の共進化
     - 加速: AI開発生産性の向上
     - 統制: AI生成コードのセキュリティ・品質の計測と管理
@@ -451,7 +451,7 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 
 - SREやPlatform Engineeringを経てきたエンジニアの次の主戦場としての「ハーネスエンジニアリング」と、Agent Harness Group設立の経緯を通じて、AI時代の運用とキャリアの進化を考察（2026年7月中旬よりオンデマンド公開）
 
-## タイミー主催「AI効果検証 meetup #1」
+## findy主催「AI効果検証 meetup #1」
 
 - [AI定額制モラトリアムの終わりと開発生産性可視化への道筋](https://speakerdeck.com/kazutb/aiding-e-zhi-moratoriamunozhong-waritokai-fa-sheng-chan-xing-ke-shi-hua-henodao-jin)
 
