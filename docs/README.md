@@ -25,7 +25,7 @@ nav_exclude: true
 
 本業では株式会社タイミーでAgent Harness Groupのグループマネージャーとして、数百名規模のプロダクト開発組織におけるAI駆動開発推進とAIガバナンス整備を推進しています。副業の [合同会社Under The Bridge](https://under-the-bridge.co.jp/) では、自らもbuilderとしてAIを最大限に活用する一エンジニアとして、クライアントのGTMに直接寄与しています。
 
-[GitHub](https://github.com/under-the-bridge-hq) / [Twitter](https://twitter.com/hshmtkzhr) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
+[GitHub](https://github.com/under-the-bridge-hq) / [X](https://x.com/kaz_utb) / [LinkedIn](https://www.linkedin.com/in/kaz-under-the-bridge/)
 
 ## 🧭 AI時代の開発組織が抱える2つの悩み
 
