@@ -47,6 +47,7 @@ AIを起点に開発体制や開発手法を変えていきたい——多くの
 
 詳細は [ページ下部](https://under-the-bridge-hq.github.io/resume/#%E4%B8%BB%E3%81%AA%E6%B4%BB%E5%8B%95%E5%AE%9F%E7%B8%BE) に掲載しています。
 
+- Cloud Operator Days Tokyo 2026 クロージングイベント パネルディスカッション登壇（[AIハーネスエンジニアリング最前線](https://cloud.watch.impress.co.jp/docs/event/2140589.html)）
 - Forkwell主催「トークンコストへの向き合い方」登壇（[抑制ではなく配分へ - タイミーのトークンコストとの向き合い方](https://speakerdeck.com/kazutb/yi-zhi-dehanakupei-fen-he-taiminotokunkosutotonoxiang-kihe-ifang)）
 - Cloud Operator Days Tokyo 2026 オンデマンド登壇（[SRE/PFEからAIハーネスへ。AI時代の運用とキャリアの進化](https://speakerdeck.com/kazutb/sre-pfe-kara-ai-hanesuhe-taimixin-zu-zhi-notiao-zhan-karatan-ru-ai-shi-dai-noyun-yong-tokiyarianojin-hua)）
 - findy主催「AI効果検証 meetup #1」登壇（[AI定額制モラトリアムの終わりと開発生産性可視化への道筋](https://speakerdeck.com/kazutb/aiding-e-zhi-moratoriamunozhong-waritokai-fa-sheng-chan-xing-ke-shi-hua-henodao-jin)）
@@ -344,6 +345,13 @@ AI Coding Agentを前提とした開発スタイルにより、週15〜20時間�
 # 🌟 主な活動・実績
 
 新しい順（逆時系列）で記載しています。
+
+## Cloud Operator Days Tokyo 2026 クロージングイベント パネルディスカッション
+
+- [クラウド Watch 掲載記事](https://cloud.watch.impress.co.jp/docs/event/2140589.html)
+
+- 基調講演を含むクロージングイベント（2026/09/11、docomo R&D OPEN LAB ODAIBA にてオフライン開催）のパネルディスカッション「AIハーネスエンジニアリング最前線 〜生成AI時代のサービス開発・運用はここまで変わった〜」に登壇
+- NTTドコモ・ぐるなびの登壇者とともに、AIエージェントのモデル以外の部分（スキル・ガードレール整備など）としての「ハーネス」をめぐり、開発・運用スタイルの変化や実際のツールセット、失敗談を議論
 
 ## Forkwell主催イベント「トークンコストへの向き合い方 ― 新時代の開発コストへの対応を学ぶ会」
 
